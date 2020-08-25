@@ -9,13 +9,13 @@ This library is an open-sourced component of [Verge3D](https://www.soft8soft.com
 pyosl includes a command line utility called osl2glsl.py. The command
 
 ```
-  python osl2glsl your_shader.osl
+  python osl2glsl.py your_shader.osl
 ```
 
 will print converted GLSL shader to stdout. Use the:
 
 ```
-  python osl2glsl your_shader.osl > your_shader.glsl
+  python osl2glsl.py your_shader.osl > your_shader.glsl
 ```
 
 command to write GLSL shader to the file named `your_shader.glsl`.
